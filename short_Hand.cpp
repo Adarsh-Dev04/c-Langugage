@@ -8,7 +8,7 @@ int main()
     cin >> x;
     // Ternary operator can be used but not necessary here.
     // This assigns the eligibility message to the variable vote
-    string vote = (x >= 18) ? "Eligible to vote: " + to_string(x) + " at that age" : "Not eligible to vote: " + to_string(x) + "at that age";
+    string vote = (x >= 18) ? "Eligible to vote: " + to_string(x) + "years old at that age" : "Not eligible to vote: " + to_string(x) + " years old at that age";
     cout << vote << endl; // Output the result using the ternary operator
 
     return 0;
